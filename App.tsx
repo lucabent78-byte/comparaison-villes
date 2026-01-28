@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { NavBar } from './components/NavBar';
-import { DubaiPage } from './components/DubaiPage';
-import { ZurichPage } from './components/ZurichPage';
-import { AnalysisPage } from './components/AnalysisPage';
+import NavBar from './components/NavBar';
+import DubaiPage from './components/DubaiPage';
+import ZurichPage from './components/ZurichPage';
+import AnalysisPage from './components/AnalysisPage';
 import { Tab } from './types';
 
 const App: React.FC = () => {
